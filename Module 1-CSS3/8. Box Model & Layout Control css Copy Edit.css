@@ -1,0 +1,19 @@
+.eventCard {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px;
+}
+
+/* Form outline */
+input:focus {
+  outline: 2px solid #007BFF;
+}
+
+/* Visibility */
+.hidden-element {
+  visibility: hidden;
+}
+
+.removed-element {
+  display: none;
+}

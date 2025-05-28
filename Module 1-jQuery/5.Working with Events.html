@@ -1,0 +1,14 @@
+<button id="colorBtn">Change Color</button>
+<div id="colorBox" style="width:200px;height:200px;background:white;border:1px solid black;"></div>
+
+<script>
+$(document).ready(function() {
+  $("#colorBtn").click(function() {
+    $("#colorBox").css("background-color", "red");
+  });
+
+  $("#colorBox").dblclick(function() {
+    $(this).css("background-color", "white");
+  });
+});
+</script>

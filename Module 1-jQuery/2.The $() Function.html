@@ -1,0 +1,14 @@
+<h1>Original Heading</h1>
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<button>Hide Paragraph</button>
+
+<script>
+$(document).ready(function() {
+  $("h1").text("Updated Heading");
+
+  $("button").click(function() {
+    $("p").first().hide();
+  });
+});
+</script>

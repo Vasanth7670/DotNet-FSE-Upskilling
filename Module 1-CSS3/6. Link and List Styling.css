@@ -1,0 +1,24 @@
+/* Link styles */
+a:link {
+  color: #007BFF;
+}
+a:hover {
+  color: #0056b3;
+}
+a:active {
+  color: #ff0000;
+}
+a:visited {
+  color: #800080;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 5px;
+}

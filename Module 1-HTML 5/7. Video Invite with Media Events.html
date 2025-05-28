@@ -1,0 +1,15 @@
+<video id="promoVideo" width="320" height="240" controls>
+    <source src="promo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p id="statusMsg"></p>
+
+<script>
+    const video = document.getElementById('promoVideo');
+    video.oncanplay = () => {
+        document.getElementById('statusMsg').innerText = "Video ready to play";
+    };
+
+    window.onbeforeunload = () => "Are you sure you want to leave?";
+</script>

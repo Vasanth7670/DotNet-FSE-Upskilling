@@ -1,0 +1,21 @@
+/* HEX and RGBA colors */
+h1 {
+  color: #FF5733;
+}
+
+p {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Background image with fallback color */
+body {
+  background: #e0e0e0 url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Gradient for section headers */
+section h2 {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  padding: 10px;
+}

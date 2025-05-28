@@ -1,0 +1,31 @@
+/* Reset margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style all h2 */
+h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+/* ID selector */
+#mainHeader {
+  background-color: #555;
+  color: white;
+  text-align: center;
+}
+
+/* Class selector */
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Grouping selector */
+h3, p {
+  font-family: Arial, sans-serif;
+  color: #444;
+}

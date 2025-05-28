@@ -1,0 +1,38 @@
+<button id="hideBtn">Hide Boxes</button>
+<button id="showBtn">Show Boxes</button>
+<button id="fadeOutBtn">Fade Out</button>
+<button id="fadeInBtn">Fade In</button>
+<button id="toggleBtn">Toggle</button>
+<button id="chainBtn">Chain</button>
+
+<div class="box" style="width:100px;height:100px;background:red;margin:5px;"></div>
+<div class="box" style="width:100px;height:100px;background:green;margin:5px;"></div>
+<div class="box" style="width:100px;height:100px;background:blue;margin:5px;"></div>
+
+<script>
+$(document).ready(function() {
+  $("#hideBtn").click(function() {
+    $(".box").hide();
+  });
+
+  $("#showBtn").click(function() {
+    $(".box").show();
+  });
+
+  $("#fadeOutBtn").click(function() {
+    $(".box").fadeOut();
+  });
+
+  $("#fadeInBtn").click(function() {
+    $(".box").fadeIn();
+  });
+
+  $("#toggleBtn").click(function() {
+    $(".box").toggle();
+  });
+
+  $("#chainBtn").click(function() {
+    $(".box").slideUp().delay(1000).slideDown();
+  });
+});
+</script>

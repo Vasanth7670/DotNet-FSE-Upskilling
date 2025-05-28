@@ -1,0 +1,26 @@
+<div id="hoverBox" style="width:200px;height:100px;border:1px solid black;">Hover me</div>
+<input type="text" id="inputField" placeholder="Type here">
+
+<script>
+$(document).ready(function() {
+  $("#hoverBox").click(function() {
+    $(this).css("background-color", "yellow");
+  });
+
+  $("#hoverBox").dblclick(function() {
+    $(this).css("background-color", "pink");
+  });
+
+  $("#hoverBox").mouseenter(function() {
+    $(this).text("Mouse Entered!");
+  });
+
+  $("#hoverBox").mouseleave(function() {
+    $(this).text("Hover me");
+  });
+
+  $("#inputField").keypress(function(e) {
+    alert("You pressed: " + e.key);
+  });
+});
+</script>

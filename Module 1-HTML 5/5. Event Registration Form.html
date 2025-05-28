@@ -1,0 +1,23 @@
+<form>
+    <label>Name: <input type="text" placeholder="Your name" required autofocus></label><br>
+    <label>Email: <input type="email" placeholder="Your email" required></label><br>
+    <label>Date: <input type="date" required></label><br>
+    <label>Event Type:
+        <select>
+            <option value="music">Music</option>
+            <option value="art">Art</option>
+            <option value="sports">Sports</option>
+        </select>
+    </label><br>
+    <label>Message: <textarea placeholder="Your message"></textarea></label><br>
+    <button type="submit" onclick="document.getElementById('output').innerText = 'Registration Successful!'">Submit</button>
+    <output id="output"></output>
+</form>
+
+<style>
+    form {
+        border: 1px solid gray;
+        padding: 10px;
+        width: 300px;
+    }
+</style>
